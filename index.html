@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>LynxIt</title>
+
+	<style>
+		body{
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica,sans-serif;
+			font-weight: 300;
+			padding: 25px;
+			margin: 0;
+		}
+		h1{
+			margin: 0;
+		}
+		.bookmarklet{
+			text-decoration: none;
+			color: #000 !important;
+			padding: 2px 5px;
+			background-color: #ccc;
+			border-radius: 4px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1>LynxIt</h1>
+	<h3>A bookmarklet for jumping to an article's NewsLynx from your website.</h3>
+
+	<p>Install by dragging this to your bookmarks bar: <a class="bookmarklet" href='javascript:(function(){var e="http://0.0.0.0:3000";window.location.replace(e+"/articles/lookup?url="+window.location.href)}).call(this)'>LynxIt</a></p>
+	<p>View the code on <a href="http://github.com/newslynx/LynxIt">GitHub</a>.</p>
+
+</body>
+</html>
